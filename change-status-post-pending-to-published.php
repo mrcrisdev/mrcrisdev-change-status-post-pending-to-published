@@ -10,7 +10,7 @@ function change_post_status($post_id, $status, $change_date){
 $args = array(
     'post_type'      => 'post',
     'posts_per_page' => -1,
-    'post_status'    => 'future',
+    'post_status'    => 'pending',
     'orderby'        => 'date',
     'order'          => 'ASC',
 );
